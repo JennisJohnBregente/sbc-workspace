@@ -1,8 +1,8 @@
-# Install Solana Toolsuite
-sh -c "$(curl -sSfL https://release.solana.com/v1.17.3/install)"
-
 # Install Rust and Cargo
 curl https://sh.rustup.rs -sSf | sh -s -- -y
+
+# Install Solana Toolsuite
+sh -c "$(curl -sSfL https://release.solana.com/v1.17.6/install)"
 
 echo "Solana and Rust are installed!"
 
